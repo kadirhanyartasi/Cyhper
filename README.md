@@ -10,8 +10,8 @@ Here, x is the numerical value of the letter, and a and b are the keys.
 This method encrypts letters in a more complicated way, making it a more secure alternative.
 However, the a key must be coprime with 26; otherwise, encryption cannot be performed.
 Decryption is similar but requires the modular inverse of a.
-
 Both ciphers rely on basic arithmetic and modular mathematics. While the Caesar Cipher is straightforward, the Affine Cipher is more robust and secure because the encryption process involves more complex mathematical operations. This is why the Affine Cipher is preferred for larger texts and more secure communications.
+
     ----------TR---------
 Sezar Şifrelemesi, en eski şifreleme yöntemlerinden biridir ve şifreleme, her harfi belirli bir sayı kadar kaydırarak yapılır.
 Örneğin, harfler 3 pozisyon sağa kaydırılacaksa, 'A' harfi 'D' olur. Bu yöntem çok basittir ve şifrelenmiş metni çözmek için aynı kaydırma değeri (anahtar) gereklidir.
